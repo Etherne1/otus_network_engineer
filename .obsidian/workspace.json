@@ -11,14 +11,28 @@
             "id": "870061b17838ebf9",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
                 "file": "README.md",
-                "staged": false
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f58a6703bccd32ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Readme.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Readme.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Readme.md.md"
+              }
             }
           },
           {
@@ -152,10 +170,15 @@
   },
   "active": "573a93abf7fa4707",
   "lastOpenFiles": [
+    "Lab01/configs/Router0_startup-config.txt",
+    "Lab01/configs/Switch1_startup-config.txt",
+    "Lab01/configs/Switch0_startup-config.txt",
+    "Lab01/configs",
+    "README.md",
+    "Readme.md.md",
     "Lab01/Router0_startup-config.txt",
     "Lab01/Switch1_startup-config.txt",
     "Lab01/Switch0_startup-config.txt",
-    "Lab01",
-    "README.md"
+    "Lab01"
   ]
 }
