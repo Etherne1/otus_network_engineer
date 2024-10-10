@@ -39,4 +39,4 @@ Tracing route to 192.168.3.3 over a maximum of 30 hops:
 Trace complete.
 ```
 
-[Конфигурая оборудования прилагается](https://github.com/Etherne1/otus_network_engineer/tree/main/Lab01)
+[Конфигурая оборудования прилагается](https://github.com/Etherne1/otus_network_engineer/tree/main/Lab01/configs)
