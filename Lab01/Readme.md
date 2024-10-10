@@ -1,6 +1,6 @@
 
 Топология:
-[![[](https://github.com/Etherne1/otus_network_engineer/blob/main/Pasted%20image%2020241010212925.png?raw=true)
+![](https://github.com/Etherne1/otus_network_engineer/blob/main/Pasted%20image%2020241010212925.png?raw=true)
 
 ### Задание:
 
