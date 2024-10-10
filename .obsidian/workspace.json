@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f58a6703bccd32ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Readme.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md.md"
+                "file": "README.md"
               }
             }
           },
@@ -168,14 +155,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "573a93abf7fa4707",
+  "active": "870061b17838ebf9",
   "lastOpenFiles": [
+    "Lab01/Readme.md.md",
+    "README.md",
     "Lab01/configs/Router0_startup-config.txt",
     "Lab01/configs/Switch1_startup-config.txt",
     "Lab01/configs/Switch0_startup-config.txt",
     "Lab01/configs",
-    "README.md",
-    "Readme.md.md",
     "Lab01/Router0_startup-config.txt",
     "Lab01/Switch1_startup-config.txt",
     "Lab01/Switch0_startup-config.txt",
