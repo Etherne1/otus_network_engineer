@@ -150,8 +150,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "870061b17838ebf9",
+  "active": "573a93abf7fa4707",
   "lastOpenFiles": [
+    "Lab01/Router0_startup-config.txt",
+    "Lab01/Switch1_startup-config.txt",
+    "Lab01/Switch0_startup-config.txt",
+    "Lab01",
     "README.md"
   ]
 }
