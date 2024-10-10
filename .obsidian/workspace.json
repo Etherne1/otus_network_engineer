@@ -11,8 +11,30 @@
             "id": "aafc4bb957ac4236",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Lab01/Readme.md.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d06260f300fcd0c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4a0c3ccd8717031",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lab01/Readme.md.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Lab01/Readme.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Lab01/Readme.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-10.md"
+                "file": "Lab01/Readme.md.md"
               }
             }
           },
@@ -149,8 +173,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "13e6a04c10c5c8c8",
+  "active": "aafc4bb957ac4236",
   "lastOpenFiles": [
+    "Pasted image 20241010212925.png",
+    "README.md",
     "2024-10-10.md"
   ]
 }
