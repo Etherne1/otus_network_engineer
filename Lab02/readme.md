@@ -29,11 +29,11 @@ service password-encryption
 
 Проверяем наличие связности между свитчами:
 
-S1>ping 192.168.1.2
+
 
   
 ```
-Type escape sequence to abort.
+S1>ping 192.168.1.2
 Sending 5, 100-byte ICMP Echos to 192.168.1.2, timeout is 2 seconds:
 ..!!!
 Success rate is 60 percent (3/5), round-trip min/avg/max = 0/0/0 ms 
@@ -41,7 +41,6 @@ Success rate is 60 percent (3/5), round-trip min/avg/max = 0/0/0 ms
 S1>ping 192.168.1.3
 Sending 5, 100-byte ICMP Echos to 192.168.1.3, timeout is 2 seconds:
 ..!!!
-
 Success rate is 60 percent (3/5), round-trip min/avg/max = 0/0/0 ms
 ```
 Далее меняем кост на S1:
