@@ -48,5 +48,7 @@ S1(config-if)# spanning-tree cost 19
 ```
 
 [Конфиг по частям 1-2.](https://github.com/Etherne1/otus_network_engineer/tree/main/Lab02/config%20before%20part%203)
+
 [Конфиг после выполнения части 3.](https://github.com/Etherne1/otus_network_engineer/tree/main/Lab02/config%20after%20part%203)
+
 [Файл лабораторной работы, с заполненными ответами.](https://github.com/Etherne1/otus_network_engineer/blob/main/Lab02/3.1.2.12_Lab___Building_a_Switched_Network_with_Redundant_Links.docx)
