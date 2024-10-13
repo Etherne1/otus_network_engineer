@@ -2,7 +2,7 @@
 # Lab02
 
 ## Топология:
-[[https://github.com/Etherne1/otus_network_engineer/blob/main/Lab01/Pasted%20image%2020241010212925.png?raw=true]]
+![](https://github.com/Etherne1/otus_network_engineer/blob/main/Lab01/Pasted%20image%2020241010212925.png?raw=true)
 
 ### Цели:
 Часть 1. Создание сети и настройка основных параметров устройства
@@ -47,6 +47,6 @@ S1(config)# **interface f0/2**
 S1(config-if)# spanning-tree cost 19
 ```
 
-Конфиг по частям 1-2.
-Конфиг после выполнения части 3.
-Файл лабораторной работы, с заполненными ответами.
+[Конфиг по частям 1-2.](https://github.com/Etherne1/otus_network_engineer/tree/main/Lab02/config%20before%20part%203)
+[Конфиг после выполнения части 3.](https://github.com/Etherne1/otus_network_engineer/tree/main/Lab02/config%20after%20part%203)
+[Файл лабораторной работы, с заполненными ответами.](https://github.com/Etherne1/otus_network_engineer/blob/main/Lab02/3.1.2.12_Lab___Building_a_Switched_Network_with_Redundant_Links.docx)
