@@ -57,7 +57,36 @@ S1(config)# interface f0/2
 S1(config-if)# no spanning-tree cost 18
 ```
 
-У меня данная команда в packet tracer никакого эффекта не дала, поэтому вручную выставил значение на дефолт. Но из конфига строку вручную убрал, чтобы при проверке не отображалось ошибкой.
+У меня данная команда в packet tracer никакого эффекта не дала.
+```
+S1#sh run | b 0/2
+
+interface FastEthernet0/2
+
+switchport mode trunk
+
+spanning-tree cost 18
+
+S1#conf t
+
+Enter configuration commands, one per line. End with CNTL/Z.
+
+S1(config)#int fa0/2
+
+S1(config-if)#no spa co 18
+
+S1(config-if)#do sh run | b 0/2
+
+interface FastEthernet0/2
+
+switchport mode trunk
+
+spanning-tree cost 18
+
+!
+```
+
+Поэтому вручную выставил значение на дефолт. Но из конфига строку вручную убрал, чтобы при проверке не отображалось ошибкой.
 
 ```
 S1(config)# interface f0/2
