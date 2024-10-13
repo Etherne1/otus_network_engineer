@@ -2,7 +2,7 @@
 # Lab02
 
 ## Топология:
-![[Screenshot 2024-10-13 194113.png]]
+[[https://github.com/Etherne1/otus_network_engineer/blob/main/Lab01/Pasted%20image%2020241010212925.png?raw=true]]
 
 ### Цели:
 Часть 1. Создание сети и настройка основных параметров устройства
