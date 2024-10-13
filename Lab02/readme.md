@@ -49,6 +49,8 @@ S1(config)# interface f0/2
 
 S1(config-if)# spanning-tree cost 18
 ```
+Топология STP поменялась в соответствии с методичкой.
+
 Затем возвращаем обратно:
 ```
 S1(config)# interface f0/2
