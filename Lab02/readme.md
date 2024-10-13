@@ -44,13 +44,13 @@ Sending 5, 100-byte ICMP Echos to 192.168.1.3, timeout is 2 seconds:
 
 Success rate is 60 percent (3/5), round-trip min/avg/max = 0/0/0 ms
 ```
-Далее меняем кост на S1
+Далее меняем кост на S1:
 ```
 S1(config)# interface f0/2
 
 S1(config-if)# spanning-tree cost 18
 ```
-Затев возвращаем обратно:
+Затем возвращаем обратно:
 ```
 S1(config)# interface f0/2
 
