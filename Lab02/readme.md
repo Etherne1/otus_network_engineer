@@ -28,13 +28,13 @@ service password-encryption
 
 Далее меняем кост на S1
 ```
-S1(config)# **interface f0/2**
+S1(config)# interface f0/2
 
-S1(config-if)# **spanning-tree cost 18**
+S1(config-if)# spanning-tree cost 18
 ```
 Затев возвращаем обратно:
 ```
-S1(config)# **interface f0/2**
+S1(config)# interface f0/2
 
 S1(config-if)# no spanning-tree cost 18
 ```
@@ -42,7 +42,7 @@ S1(config-if)# no spanning-tree cost 18
 У меня данная команда в packet tracer никакого эффекта не дала, поэтому вручную выставил значение на дефолт. Но из конфига строку вручную убрал, чтобы при проверке не отображалось ошибкой.
 
 ```
-S1(config)# **interface f0/2**
+S1(config)# interface f0/2
 
 S1(config-if)# spanning-tree cost 19
 ```
