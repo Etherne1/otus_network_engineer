@@ -10,6 +10,7 @@ hostname S2
 !
 no ip domain-lookup
 !
+enable secret 5 $1$mERr$9cTjUIEqNGurQiFU.ZeCi1
 !
 !
 spanning-tree mode pvst

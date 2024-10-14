@@ -17,6 +17,7 @@
 ```
 conf t
 no ip domain-lookup
+enable secret class
 banner motd "unauthorized access is prohibited"
 line vty 0 4
  login local

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e1868a99c86b55ef",
+        "id": "5c6d7aaee5628b40",
         "type": "tabs",
         "children": [
           {
-            "id": "aafc4bb957ac4236",
+            "id": "2f72c06f2f5799aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "5c6d7aaee5628b40",
+        "id": "7c18e4887eaad6f1",
         "type": "tabs",
         "children": [
           {
-            "id": "2f72c06f2f5799aa",
+            "id": "2050ea0db443a4fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -84,7 +84,7 @@
             }
           },
           {
-            "id": "7c321af15b5505bd",
+            "id": "dbcc3b6ede23fd30",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -157,14 +157,6 @@
             }
           },
           {
-            "id": "ac338354e85dede7",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "ad8ff6a0807ba71c",
             "type": "leaf",
             "state": {
@@ -175,9 +167,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "2fb85c7b16c87cb7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -195,8 +195,11 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "ac338354e85dede7",
+  "active": "2f72c06f2f5799aa",
   "lastOpenFiles": [
+    "Lab01/Readme.md",
+    "Lab02/readme.md",
+    "Lab01/Pasted image 20241010212925.png",
     "Lab02/config after part 3/S1_startup-config.txt",
     "Lab02/config after part 3/S3_startup-config.txt",
     "Lab02/config after part 3/S2_startup-config.txt",
@@ -207,13 +210,9 @@
     "Lab02/~WRL0001.tmp",
     "Lab02/~WRD0000.tmp",
     "Lab02/config after part 3/S3_final_startup-config.txt",
-    "Lab02/config after part 3/S2_final_startup-config.txt",
-    "Lab01/Readme.md",
-    "Lab02/readme.md",
     "README.md",
     "Lab02/readmy.md",
     "Lab02/Screenshot 2024-10-13 194113.png",
-    "Lab01/Pasted image 20241010212925.png",
     "Pasted image 20241010212925.png",
     "2024-10-10.md"
   ]
