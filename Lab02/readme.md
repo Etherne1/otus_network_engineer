@@ -42,7 +42,7 @@ Sending 5, 100-byte ICMP Echos to 192.168.1.3, timeout is 2 seconds:
 Success rate is 60 percent (3/5), round-trip min/avg/max = 0/0/0 ms
 ```
 
-#### Далее меняем кост на S1 и наблюдаем за работой устройств:
+#### Далее меняем cost на S1 и наблюдаем за работой устройств:
 ```
 S1(config)# interface f0/2
 
