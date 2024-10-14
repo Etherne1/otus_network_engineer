@@ -28,10 +28,7 @@ line vty 0 4
 service password-encryption
 ```
 
-Проверяем наличие связности между свитчами:
-
-
-
+#### Проверяем наличие связности между свитчами:
   
 ```
 S1>ping 192.168.1.2
@@ -44,22 +41,28 @@ Sending 5, 100-byte ICMP Echos to 192.168.1.3, timeout is 2 seconds:
 ..!!!
 Success rate is 60 percent (3/5), round-trip min/avg/max = 0/0/0 ms
 ```
-Далее меняем кост на S1 и наблюдаем за работой устройств:
+
+#### Далее меняем кост на S1 и наблюдаем за работой устройств:
 ```
 S1(config)# interface f0/2
 
 S1(config-if)# spanning-tree cost 18
 ```
+
+
+
+
 Топология STP поменялась в соответствии с методичкой.
 
-Затем возвращаем обратно:
+#### Затем возвращаем обратно:
 ```
 S1(config)# interface f0/2
 
 S1(config-if)# no spanning-tree cost 18
 ```
+   
 
-У меня данная команда в packet tracer никакого эффекта не дала.
+  У меня данная команда в packet tracer никакого эффекта не дала.
 ```
 S1#sh run | b 0/2
 
