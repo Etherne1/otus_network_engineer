@@ -46,7 +46,7 @@ Success rate is 60 percent (3/5), round-trip min/avg/max = 0/0/0 ms
 ```
 S1(config)# interface f0/2
 
-S1(config-if)# spanning-tree cost 18
+S1(config-if)# spanning-tree cost 19
 ```
 
 
