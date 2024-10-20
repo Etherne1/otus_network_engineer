@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab03/readme.md",
+                "file": "Lab02/readme.md",
                 "mode": "preview",
                 "source": true
               }
@@ -195,12 +195,13 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "ac338354e85dede7",
+  "active": "aafc4bb957ac4236",
   "lastOpenFiles": [
+    "Lab02/readme.md",
+    "Lab01/Readme.md",
+    "Lab03/readme.md",
     "Lab03/Pasted image 20241020152404.png",
     "Lab03/Pasted image 20241020151723.png",
-    "Lab02/readme.md",
-    "Lab03/readme.md",
     "conflict-files-obsidian-git.md",
     "Pasted image 20241020152404.png",
     "Pasted image 20241020151903.png",
@@ -216,7 +217,6 @@
     "Lab02/config after part 3/3.1.2.12_Lab___Building_a_Switched_Network_with_Redundant_Links.docx",
     "Lab02/~WRL0001.tmp",
     "Lab02/~WRD0000.tmp",
-    "Lab01/Readme.md",
     "README.md",
     "Lab02/readmy.md",
     "Lab02/Screenshot 2024-10-13 194113.png",
