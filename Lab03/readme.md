@@ -63,7 +63,7 @@ Record the first IP address in the Addressing Table for R2 G0/0/1.
  ### Step 2: Cable the network as shown in the topology.
  
 <details>
- <summary>Step3: Configure basic settings for each router.</summary>
+ <summary>### Step3: Configure basic settings for each router.</summary>
 
 
 ```
