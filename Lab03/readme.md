@@ -8,7 +8,7 @@
 
 Т.е. нумерация интерфейсов на роутерах сменилась с формата Gi0/0/1 на e0/1; нумерация интерфейсов на свитчах с F0/18 на e8/1 и с F0/5 на e5/0 соответственно.
 Логически схема не изменилась, но форму топологии поменял, для наглядности.
-В связи со сменой формата, пришлось менять ее и в таблицах(и в заданиях):
+В связи со сменой формата, пришлось менять ее и в таблицах(а так же в заданиях):
 
 ###  Addressing Table
 |Device|Interface|IP Address|Subnet Mask|Default Gateway|
@@ -139,7 +139,7 @@ Et0/1.1000            up           up       Native
   <summary> Step 5:  Configure et0/1 on R2, then et0/0 and static routing for both routers</summary>
 
 
-a. Configure G0/0/1 on R2 with the first IP address of Subnet C you calculated earlier.
+a. Configure et0/1 on R2 with the first IP address of Subnet C you calculated earlier.
 
 b. Configure interface et0/0 for each router based on the IP Addressing table above.
 
