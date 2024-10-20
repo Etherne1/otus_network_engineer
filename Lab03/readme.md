@@ -11,7 +11,7 @@
 ### Выполнение ДЗ:
 
 #####  Step 1: Establish an addressing scheme
-First item with a hidden code block
+
 <details>
   <summary>Задание</summary>
 
