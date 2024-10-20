@@ -63,7 +63,7 @@ Record the first IP address in the Addressing Table for R2 G0/0/1.
   Step 2: Cable the network as shown in the topology.
  
 <details>
- <summary> Step3: Configure basic settings for each router.</summary>
+ <summary> Step 3: Configure basic settings for each router.</summary>
 
 
 ```
@@ -85,3 +85,14 @@ wr
 ```
 
 </details>
+
+<details>
+  <summary> Step 4: Establish an addressing scheme</summary>
+  ### Step 1:  
+
+a. Activate interface G0/0/1 on the router.
+
+b. Configure sub-interfaces for each VLAN as required by the IP addressing table. All sub-interfaces use 802.1Q encapsulation and are assigned the first usable address from the IP address pool you have calculated. Ensure the sub-interface for the native VLAN does not have an IP address assigned. Include a description for each sub-interface.
+
+c. Verify the sub-interfaces are operational.
+  </details>
