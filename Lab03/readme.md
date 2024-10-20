@@ -29,7 +29,8 @@
 
 <details>
   <summary> Step 1: Establish an addressing scheme</summary>
- Subnet the network 192.168.1.0/24 to meet the following requirements:
+ Subnet the network 192.168.1.0/24 to meet the following requirements:  
+ 
 
 
    
