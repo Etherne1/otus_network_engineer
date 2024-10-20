@@ -11,8 +11,6 @@
 В связи со сменой формата, пришлось менять ее и в таблицах:
 
 ###  Addressing Table:
-
-
 |Device|Interface|IP Address|Subnet Mask|Default Gateway|
 |---|---|---|---|---|
 |R1|et0/0|10.0.0.1|255.255.255.252|N/A|
