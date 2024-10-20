@@ -239,13 +239,13 @@ j.        Copy the running configuration to the startup configuration.
   <summary>  Step 7: Create VLANs on S1.</summary>
   **Note**: S2 is only configured with basic settings.
 
-a.      Create and name the required VLANs on switch 1 from the table above.
+a. Create and name the required VLANs on switch 1 from the table above.
 
-b.      Configure and activate the management interface on S1 (VLAN 200) using the second IP address from the subnet calculated earlier. Additionally, set the default gateway on S1.
+b. Configure and activate the management interface on S1 (VLAN 200) using the second IP address from the subnet calculated earlier. Additionally, set the default gateway on S1.
 
-c.      Configure and activate the management interface on S2 (VLAN 1) using the second IP address from the subnet calculated earlier. Additionally, set the default gateway on S2
+c. Configure and activate the management interface on S2 (VLAN 1) using the second IP address from the subnet calculated earlier. Additionally, set the default gateway on S2
 
-d.      Assign all unused ports on S1 to the Parking_Lot VLAN, configure them for static access mode, and administratively deactivate them. On S2, administratively deactivate all the unused ports.
+d. Assign all unused ports on S1 to the Parking_Lot VLAN, configure them for static access mode, and administratively deactivate them. On S2, administratively deactivate all the unused ports.
 
 **Note**: The interface range command is helpful to accomplish this task with as few commands as necessary.
     </details>
