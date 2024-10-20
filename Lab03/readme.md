@@ -102,6 +102,26 @@ Router(config-if)#
 
 
 b. Configure sub-interfaces for each VLAN as required by the IP addressing table. All sub-interfaces use 802.1Q encapsulation and are assigned the first usable address from the IP address pool you have calculated. Ensure the sub-interface for the native VLAN does not have an IP address assigned. Include a description for each sub-interface.
-
+```
+int et0/1.100
+enc dot 100
+desc Clients
+ip add 192.168.1.1 255.255.255.196
+int et0/1.200
+enc dot 200
+desc Management
+ip add 192.168.1.65 255.255.255.224
+int et0/1.1000    
+enc dot 1000
+desc Native
+```
 c. Verify the sub-interfaces are operational.
   </details>
+  
+```
+Router#sh int desc | i 0/1
+Et0/1                          up             up
+Et0/1.100                      up             up       Clients
+Et0/1.200                      up             up       Management
+Et0/1.1000                     up             up       Native
+```
