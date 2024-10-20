@@ -180,7 +180,26 @@ R2(config)#ip route 0.0.0.0 0.0.0.0 10.0.0.1
 
 d. Verify static routing is working by pinging R2’s et0/1 address from R1.
 
+```
+R1#ping 10.0.0.2
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 10.0.0.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
+```
+
 e.  Save the running configuration to the startup configuration file.
+
+```
+R1#wr
+Building configuration...
+[OK]
+```
+```
+R2#wr
+Building configuration...
+[OK]
+```
 
 
 
