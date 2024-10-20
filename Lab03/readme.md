@@ -11,7 +11,16 @@
 ### Выполнение ДЗ:
 
 #####  Step 1: Establish an addressing scheme
+First item with a hidden code block
+<details>
+  <summary>Задание</summary>
 
+  ```
+  a.      One subnet, “Subnet A”, supporting 58 hosts (the client VLAN at R1).
+
+Subnet A:
+  ```
+</details>
 
 
 ### Предварительная конфигурация устройств
@@ -36,11 +45,3 @@ wr
 ```
 
 
-First item with a hidden code block
-<details>
-  <summary>Example</summary>
-
-  ```
-  long console output here
-  ```
-</details>
