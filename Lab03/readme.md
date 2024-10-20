@@ -209,8 +209,6 @@ Building configuration...
 
 a.      Assign a device name to the switch.
 
-Open configuration window
-
 b.      Disable DNS lookup to prevent the router from attempting to translate incorrectly entered commands as though they were host names.
 
 c.      Assign **class** as the privileged EXEC encrypted password.
@@ -231,6 +229,8 @@ i.        Set the clock on the switch to today’s time and date.
 
 j.        Copy the running configuration to the startup configuration.
 
-
+```
+Все это сделано в рамках п.3, т.к. кроме hostname, все команды вводил через multiexec.
+```
 
   </details>
