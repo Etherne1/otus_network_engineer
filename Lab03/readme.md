@@ -8,7 +8,7 @@
 
 Т.е. нумерация интерфейсов на роутерах сменилась с формата Gi0/0/1 на e0/1; нумерация интерфейсов на свитчах с F0/18 на e8/1 и с F0/5 на e5/0 соответственно.
 Логически схема не изменилась, но форму топологии поменял, для наглядности.
-В связи со сменой формата, пришлось менять ее и в таблицах:
+В связи со сменой формата, пришлось менять ее и в таблицах(и в заданиях):
 
 ###  Addressing Table
 |Device|Interface|IP Address|Subnet Mask|Default Gateway|
@@ -44,7 +44,7 @@ Subnet A:
 192.168.1.0/26
 ```
 
-Record the first IP address in the Addressing Table for R1 G0/0/1.100.
+Record the first IP address in the Addressing Table for R1 et0/1.100.
 
 b. One subnet, “Subnet B”, supporting 28 hosts (the management VLAN at R1).
 Subnet B: 
@@ -52,7 +52,7 @@ Subnet B:
 192.168.1.64/27
 ```
 
-Record the first IP address in the Addressing Table for R1 G0/0/1.200. Record the second IP address in the Address Table for S1 VLAN 200 and enter the associated default gateway.
+Record the first IP address in the Addressing Table for R1 et0/1.200. Record the second IP address in the Address Table for S1 VLAN 200 and enter the associated default gateway.
 
 c. One subnet, “Subnet C”, supporting 12 hosts (the client network at R2).
 Subnet C: 
@@ -60,7 +60,7 @@ Subnet C:
 192.168.1.96/28
 ```
 
-Record the first IP address in the Addressing Table for R2 G0/0/1.
+Record the first IP address in the Addressing Table for R2 et0/1.
   
 </details>
 
@@ -97,14 +97,14 @@ wr
 <details>
   <summary> Step 4:  Configure Inter-VLAN Routing on R1</summary>
   
-a. Activate interface G0/0/1 on the router.
+a. Activate interface et0/1 on the router.
 
 ```
 Router(config)#int eth 0/1
 Router(config-if)#no sh
 Router(config-if)#
-*Oct 20 16:21:22.079: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
-*Oct 20 16:21:23.081: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/0, changed state to up
+*Oct 20 16:21:22.079: %LINK-3-UPDOWN: Interface Ethernet0/1, changed state to up
+*Oct 20 16:21:23.081: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/1, changed state to up
 ```
 
 
@@ -133,4 +133,22 @@ Et0/1.100             up           up       Clients
 Et0/1.200             up           up       Management
 Et0/1.1000            up           up       Native
 ```
+  </details>
+
+<details>
+  <summary> Step 5:  Configure et0/1 on R2, then et0/0 and static routing for both routers</summary>
+
+
+a. Configure G0/0/1 on R2 with the first IP address of Subnet C you calculated earlier.
+
+b. Configure interface et0/0 for each router based on the IP Addressing table above.
+
+c. Configure a default route on each router pointed to the IP address of et0/0 on the other router.
+
+d. Verify static routing is working by pinging R2’s et0/1 address from R1.
+
+e.  Save the running configuration to the startup configuration file.
+
+
+
   </details>
