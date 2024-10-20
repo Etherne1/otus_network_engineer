@@ -207,6 +207,29 @@ Building configuration...
 <details>
   <summary>  Step 6: Configure basic settings for each switch.</summary>
 
+a.      Assign a device name to the switch.
+
+Open configuration window
+
+b.      Disable DNS lookup to prevent the router from attempting to translate incorrectly entered commands as though they were host names.
+
+c.      Assign **class** as the privileged EXEC encrypted password.
+
+d.      Assign **cisco** as the console password and enable login.
+
+e.      Assign **cisco** as the VTY password and enable login.
+
+f.       Encrypt the plaintext passwords.
+
+g.      Create a banner that warns anyone accessing the device that unauthorized access is prohibited.
+
+h.      Save the running configuration to the startup configuration file.
+
+i.        Set the clock on the switch to today’s time and date.
+
+**Note**: Use the question mark (**?**) to help with the correct sequence of parameters needed to execute this command.
+
+j.        Copy the running configuration to the startup configuration.
 
 
 
