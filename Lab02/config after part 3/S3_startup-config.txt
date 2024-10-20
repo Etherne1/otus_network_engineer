@@ -6,6 +6,7 @@ service password-encryption
 !
 hostname S3
 !
+enable secret 5 $1$mERr$9cTjUIEqNGurQiFU.ZeCi1
 !
 !
 no ip domain-lookup

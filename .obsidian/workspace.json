@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "73324890ebe43ca8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "ecbdb48bd4d356a9",
@@ -112,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lab03/readme.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab03/readme.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab03/readme.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -195,14 +208,15 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "aafc4bb957ac4236",
+  "active": "73324890ebe43ca8",
   "lastOpenFiles": [
+    "Lab03/readme.md",
+    "conflict-files-obsidian-git.md",
     "Pasted image 20241020152404.png",
     "Pasted image 20241020151903.png",
     "Pasted image 20241020151753.png",
     "Pasted image 20241020151723.png",
     "Lab02/readme.md",
-    "Lab03/readme.md",
     "Lab03",
     "Lab02/config after part 3/S1_startup-config.txt",
     "Lab02/config after part 3/S3_startup-config.txt",
