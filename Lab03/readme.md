@@ -118,10 +118,11 @@ desc Native
 c. Verify the sub-interfaces are operational.
   </details>
   
+
 ```
 Router#sh int desc | i 0/1
-Et0/1                          up             up
-Et0/1.100                      up             up       Clients
-Et0/1.200                      up             up       Management
-Et0/1.1000                     up             up       Native
+Et0/1                 up           up
+Et0/1.100             up           up       Clients
+Et0/1.200             up           up       Management
+Et0/1.1000            up           up       Native
 ```
