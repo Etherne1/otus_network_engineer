@@ -60,7 +60,8 @@ Record the first IP address in the Addressing Table for R2 G0/0/1.
   
 </details>
 
-### Предварительная конфигурация устройств
+<details>
+ <summary>Step3: Configure basic settings for each router.</summary>
 
 
 ```
@@ -81,4 +82,4 @@ end
 wr
 ```
 
-
+</details>
