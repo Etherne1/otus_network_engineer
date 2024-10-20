@@ -88,7 +88,7 @@ wr
 </details>
 
 <details>
-  <summary> Step 4: Establish an addressing scheme</summary>
+  <summary> Step 4:  Configure Inter-VLAN Routing on R1</summary>
   
 a. Activate interface G0/0/1 on the router.
 
