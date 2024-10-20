@@ -142,15 +142,32 @@ Et0/1.1000            up           up       Native
 a. Configure et0/1 on R2 with the first IP address of Subnet C you calculated earlier.
 ```
 R2(config)#int et0/1
+R2(config-if)#ip add 192.168.1.97
+R2(config-if)#ip add 192.168.1.97 255.255.255.240
 R2(config-if)#no sh
 *Oct 20 17:15:55.678: %LINK-3-UPDOWN: Interface Ethernet0/1, changed state to up
 *Oct 20 17:15:56.679: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/1, changed state to up
-R2(config-if)#ip add 192.168.1.97
-R2(config-if)#ip add 192.168.1.97 255.255.255.240
 ```
 
 
 b. Configure interface et0/0 for each router based on the IP Addressing table above.
+
+```
+R1(config)#int et0/0
+R1(config-if)#ip add 10.0.0.1
+R1(config-if)#ip add 10.0.0.1 255.255.255.252
+R1(config-if)#no sh
+*Oct 20 17:19:33.770: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
+*Oct 20 17:19:34.770: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/0, changed state to up
+```
+
+```
+R2(config)#int et0/0
+R2(config-if)#ip add 10.0.0.2 255.255.255.252
+R2(config-if)#no sh
+*Oct 20 17:23:03.484: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
+*Oct 20 17:23:04.488: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/0, changed state to up
+```
 
 c. Configure a default route on each router pointed to the IP address of et0/0 on the other router.
 
