@@ -16,7 +16,7 @@
   <summary>Задание</summary>
 
   ```
-  a.      One subnet, “Subnet A”, supporting 58 hosts (the client VLAN at R1).
+  a.  One subnet, “Subnet A”, supporting 58 hosts (the client VLAN at R1).
 
 Subnet A:
   ```
