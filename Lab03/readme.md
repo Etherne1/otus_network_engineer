@@ -24,6 +24,9 @@
 |S2|VLAN 1|blank|blank|blank|
 |PC-A|NIC|DHCP|DHCP|DHCP|
 |PC-B|NIC|DHCP|DHCP|DHCP|
+
+
+
 #####  Step 1: Establish an addressing scheme
 
 <details>
