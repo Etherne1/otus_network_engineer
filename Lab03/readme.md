@@ -93,7 +93,7 @@ wr
 a. Activate interface G0/0/1 on the router.
 
 ```
-Router(config)#int eth 0/0
+Router(config)#int eth 0/1
 Router(config-if)#no sh
 Router(config-if)#
 *Oct 20 16:21:22.079: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
