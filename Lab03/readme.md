@@ -47,7 +47,7 @@ Subnet B:
 192.168.1.64/27
 ```
 
-a. Record the first IP address in the Addressing Table for R1 G0/0/1.200. Record the second IP address in the Address Table for S1 VLAN 200 and enter the associated default gateway.
+Record the first IP address in the Addressing Table for R1 G0/0/1.200. Record the second IP address in the Address Table for S1 VLAN 200 and enter the associated default gateway.
 
 c. One subnet, “Subnet C”, supporting 12 hosts (the client network at R2).
 
