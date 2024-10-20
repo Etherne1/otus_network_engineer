@@ -95,7 +95,7 @@ wr
 </details>
 
 <details>
-  <summary> Step 4:  Configure Inter-VLAN Routing on R1</summary>
+  <summary> Step 4:  Configure Inter-VLAN Routing on R1:</summary>
   
 a. Activate interface et0/1 on the router.
 
@@ -136,10 +136,19 @@ Et0/1.1000            up           up       Native
   </details>
 
 <details>
-  <summary> Step 5:  Configure et0/1 on R2, then et0/0 and static routing for both routers</summary>
+  <summary> Step 5:  Configure et0/1 on R2, then et0/0 and static routing for both routers:</summary>
 
 
 a. Configure et0/1 on R2 with the first IP address of Subnet C you calculated earlier.
+```
+R2(config)#int et0/1
+R2(config-if)#no sh
+*Oct 20 17:15:55.678: %LINK-3-UPDOWN: Interface Ethernet0/1, changed state to up
+*Oct 20 17:15:56.679: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/1, changed state to up
+R2(config-if)#ip add 192.168.1.97
+R2(config-if)#ip add 192.168.1.97 255.255.255.240
+```
+
 
 b. Configure interface et0/0 for each router based on the IP Addressing table above.
 
