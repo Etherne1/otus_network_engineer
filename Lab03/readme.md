@@ -92,6 +92,15 @@ wr
   
 a. Activate interface G0/0/1 on the router.
 
+```
+Router(config)#int eth 0/0
+Router(config-if)#no sh
+Router(config-if)#
+*Oct 20 16:21:22.079: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
+*Oct 20 16:21:23.081: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/0, changed state to up
+```
+
+
 b. Configure sub-interfaces for each VLAN as required by the IP addressing table. All sub-interfaces use 802.1Q encapsulation and are assigned the first usable address from the IP address pool you have calculated. Ensure the sub-interface for the native VLAN does not have an IP address assigned. Include a description for each sub-interface.
 
 c. Verify the sub-interfaces are operational.
