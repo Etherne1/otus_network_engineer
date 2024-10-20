@@ -230,7 +230,7 @@ i.        Set the clock on the switch to today’s time and date.
 j.        Copy the running configuration to the startup configuration.
 
 
-#### Все это сделано в рамках п.3, т.к. кроме hostname, первоначальную конфигурацию вводил через multiexec.
+#### Все это сделано в рамках п.3, т.к. кроме hostname, первоначальную конфигурацию вводил через MultiExec.
 
 
   </details>
