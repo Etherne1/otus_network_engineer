@@ -36,10 +36,11 @@ wr
 ```
 
 
+First item with a hidden code block
+<details>
+  <summary>Example</summary>
 
-```xml
-<details> 
-  <summary>Q1: What is the best Language in the World? </summary>
-   A1: JavaScript 
+  ```
+  long console output here
+  ```
 </details>
-```
