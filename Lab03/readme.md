@@ -10,19 +10,51 @@
 
 ### Выполнение ДЗ:
 
+
+|Device|Interface|IP Address|Subnet Mask|Default Gateway|
+|---|---|---|---|---|
+|R1|G0/0/0|10.0.0.1|255.255.255.252|N/A|
+|R1|G0/0/1|N/A|N/A|N/A|
+|R1|G0/0/1.100|blank|blank|N/A|
+|R1|G0/0/1.200|blank|blank|N/A|
+|R1|G0/0/1.1000|N/A|N/A|N/A|
+|R2|G0/0/0|10.0.0.2|255.255.255.252|N/A|
+|R2|G0/0/1|blank|blank|N/A|
+|S1|VLAN 200|blank|blank|blank|
+|S2|VLAN 1|blank|blank|blank|
+|PC-A|NIC|DHCP|DHCP|DHCP|
+|PC-B|NIC|DHCP|DHCP|DHCP|
 #####  Step 1: Establish an addressing scheme
 
 <details>
   <summary>Задание</summary>
+ Subnet the network 192.168.1.0/24 to meet the following requirements:
 
-  ```
-  a.  One subnet, “Subnet A”, supporting 58 hosts (the client VLAN at R1).
+a.      One subnet, “Subnet A”, supporting 58 hosts (the client VLAN at R1).
 
 Subnet A:
-  ```
+
+Type your answers here.
+
+Record the first IP address in the Addressing Table for R1 G0/0/1.100.
+
+b.      One subnet, “Subnet B”, supporting 28 hosts (the management VLAN at R1).
+
+Subnet B:
+
+Type your answers here.
+
+Record the first IP address in the Addressing Table for R1 G0/0/1.200. Record the second IP address in the Address Table for S1 VLAN 200 and enter the associated default gateway.
+
+c.      One subnet, “Subnet C”, supporting 12 hosts (the client network at R2).
+
+Subnet C:
+
+Type your answers here.
+
+Record the first IP address in the Addressing Table for R2 G0/0/1.
+  
 </details>
-
-
 ### Предварительная конфигурация устройств
 
 
