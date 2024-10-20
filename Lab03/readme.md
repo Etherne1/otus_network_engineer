@@ -1,4 +1,4 @@
-Т.к. нумерация интерфейсоd в образах устройств отличается от реального оборудования, вместо топологии 
+Т.к. нумерация интерфейсоd в образах устройств отличается от реального оборудования, вместо топологии:
 ![](https://github.com/Etherne1/otus_network_engineer/blob/main/Lab03/Pasted%20image%2020241020151723.png?raw=true)  
 
 
@@ -28,7 +28,7 @@
 
 
 <details>
-  <summary>### Step 1: Establish an addressing scheme</summary>
+  <summary> Step 1: Establish an addressing scheme</summary>
  Subnet the network 192.168.1.0/24 to meet the following requirements:
 
 a.      One subnet, “Subnet A”, supporting 58 hosts (the client VLAN at R1).
