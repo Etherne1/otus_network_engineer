@@ -32,7 +32,7 @@
  Subnet the network 192.168.1.0/24 to meet the following requirements:
  
   
-a. One subnet, “Subnet A”, supporting 58 hosts (the client VLAN at R1).
+  a. One subnet, “Subnet A”, supporting 58 hosts (the client VLAN at R1).
 
 Subnet A: 
 ```
