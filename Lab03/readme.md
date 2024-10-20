@@ -240,12 +240,150 @@ j.        Copy the running configuration to the startup configuration.
   **Note**: S2 is only configured with basic settings.
 
 a. Create and name the required VLANs on switch 1 from the table above.
+```
+S1(config)#vlan 1
+S1(config-vlan)#vlan 100
+S1(config-vlan)#name Clients
+S1(config-vlan)#vlan 200
+S1(config-vlan)#name Management
+S1(config-vlan)#vlan 999
+S1(config-vlan)#name Parking_Lot
+S1(config-vlan)#vlan 1000
+S1(config-vlan)#name Native
+```
 
 b. Configure and activate the management interface on S1 (VLAN 200) using the second IP address from the subnet calculated earlier. Additionally, set the default gateway on S1.
 
+```
+S1(config)#int vlan 200
+S1(config-if)#ip add 192.168.1.66 255.255.255.224
+S1(config-if)#no sh
+*Oct 20 17:43:23.068: %LINK-3-UPDOWN: Interface Vlan200, changed state to down
+```
+
 c. Configure and activate the management interface on S2 (VLAN 1) using the second IP address from the subnet calculated earlier. Additionally, set the default gateway on S2
+```
+S1(config-if)#ip add 192.168.1.66 255.255.255.224
+S1(config)#ip default-gateway 192.168.1.65
+```
 
 d. Assign all unused ports on S1 to the Parking_Lot VLAN, configure them for static access mode, and administratively deactivate them. On S2, administratively deactivate all the unused ports.
 
-**Note**: The interface range command is helpful to accomplish this task with as few commands as necessary.
+```
+S1(config)#int Et0/0
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et0/1
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et0/2
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et0/3
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et1/0
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et1/1
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et1/2
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et1/3
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et2/0
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et2/1
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et2/2
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et2/3
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et3/0
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et3/1
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et3/2
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et3/3
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et4/0
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et4/1
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et4/2
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et4/3
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et5/1
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et5/2
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et5/3
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et6/0
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et6/2
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et6/3
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et7/0
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et7/1
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et7/2
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et7/3
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et8/0
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et8/1
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et8/2
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et8/3
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et9/0
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et9/1
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et9/2
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+S1(config-if)#int Et9/3
+S1(config-if)#sh
+S1(config-if)# sw ac vlan 999
+```
+
     </details>
