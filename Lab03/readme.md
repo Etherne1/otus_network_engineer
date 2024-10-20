@@ -88,8 +88,7 @@ wr
 
 <details>
   <summary> Step 4: Establish an addressing scheme</summary>
-  ### Step 1:  
-
+  
 a. Activate interface G0/0/1 on the router.
 
 b. Configure sub-interfaces for each VLAN as required by the IP addressing table. All sub-interfaces use 802.1Q encapsulation and are assigned the first usable address from the IP address pool you have calculated. Ensure the sub-interface for the native VLAN does not have an IP address assigned. Include a description for each sub-interface.
