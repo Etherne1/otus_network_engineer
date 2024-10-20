@@ -33,7 +33,8 @@
 
 a.      One subnet, “Subnet A”, supporting 58 hosts (the client VLAN at R1).
 
-Subnet A:  ```
+Subnet A: 
+```
 192.168.1.0/26
 ```
 
@@ -41,7 +42,8 @@ Record the first IP address in the Addressing Table for R1 G0/0/1.100.
 
 b.      One subnet, “Subnet B”, supporting 28 hosts (the management VLAN at R1).
 
-Subnet B: ```
+Subnet B: 
+```
 192.168.1.64/27
 ```
 
@@ -49,7 +51,8 @@ Record the first IP address in the Addressing Table for R1 G0/0/1.200. Record th
 
 c.      One subnet, “Subnet C”, supporting 12 hosts (the client network at R2).
 
-Subnet C: ```
+Subnet C: 
+```
 192.168.1.96/28
 ```
 
