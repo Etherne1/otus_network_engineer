@@ -154,7 +154,6 @@ b. Configure interface et0/0 for each router based on the IP Addressing table a
 
 ```
 R1(config)#int et0/0
-R1(config-if)#ip add 10.0.0.1
 R1(config-if)#ip add 10.0.0.1 255.255.255.252
 R1(config-if)#no sh
 *Oct 20 17:19:33.770: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
