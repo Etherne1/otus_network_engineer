@@ -170,6 +170,14 @@ R2(config-if)#no sh
 
 c. Configure a default route on each router pointed to the IP address of et0/0 on the other router.
 
+```
+R1(config)#ip route 0.0.0.0 0.0.0.0 10.0.0.2
+```
+
+```
+R2(config)#ip route 0.0.0.0 0.0.0.0 10.0.0.1
+```
+
 d. Verify static routing is working by pinging R2’s et0/1 address from R1.
 
 e.  Save the running configuration to the startup configuration file.
