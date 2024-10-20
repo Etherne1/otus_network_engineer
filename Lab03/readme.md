@@ -236,7 +236,7 @@ j.        Copy the running configuration to the startup configuration.
   </details>
 
 <details>
-  <summary>  Step 7: ### Step 1: Create VLANs on S1.</summary>
+  <summary>  Step 7: Create VLANs on S1.</summary>
   **Note**: S2 is only configured with basic settings.
 
 a.      Create and name the required VLANs on switch 1 from the table above.
