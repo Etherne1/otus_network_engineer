@@ -200,6 +200,13 @@ R2#wr
 Building configuration...
 [OK]
 ```
+  </details>
+
+
+
+<details>
+  <summary>  Step 6: Configure basic settings for each switch.</summary>
+
 
 
 
