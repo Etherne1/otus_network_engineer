@@ -31,7 +31,7 @@ Confidence: 4/5
 - [x] CBT 33 OSPFv3/IPv6
 - [x] INE 17.1 Protocol Overview
 - [x] INE 17.3 Adjacency Troubleshooting
-- [ ] INE 17.4 Areas and LSA Types
+- [x] INE 17.4 Areas and LSA Types
 - [ ] INE 17.5-6 Network Types
 - [ ] INE 17.8-10 Stub Area Types
 - [ ] INE 17.11-14 NSSA
